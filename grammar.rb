@@ -1,5 +1,5 @@
-# Source code for constructing a covering grammar, with error productions
-# Also includes methods for eliminating epsilon and unit productions
+# Source code for constructing a covering grammar, with error productions, for a grammar in Chomsky Normal Form (CNF).
+# Also includes methods for eliminating epsilon and unit productions in order to keep the grammar in CNF.
 
 class Production
   attr_accessor :left, :right, :dist
